@@ -1,0 +1,12 @@
+:root{
+  --lightblue: #00a4f0;
+  --purple: #4800f0;
+  --background: linear-gradient(15deg, black, #5f0bbe, #00e77b);
+  --boxShadow: 20px 30px 40px rgba(3, 3, 3, 0.438);
+}
+
+.App {
+  text-align: center;
+}
+
+

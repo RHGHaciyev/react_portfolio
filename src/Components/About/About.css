@@ -1,0 +1,147 @@
+.ab-main{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4.5rem;
+
+  
+}
+.ab-image{
+    width: 14rem; 
+}
+.ab-image>img{
+   border: 2px solid black;
+   border-radius: 50%;
+   width: 100%;
+   max-width: 100%;
+   
+}
+.ab-infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+.ab-left{
+    display: flex;
+    position:relative;
+    flex:1;
+    flex-direction:column;
+    text-align: left;
+    gap:1.5rem;
+}
+.ab-left p{
+    color: gray;
+    font-weight: bold;
+    margin: 0;
+    line-height: 2.4;
+    padding: 0 33px 0 0;
+}
+.ab-left h1{
+   margin: 0;
+}
+.ab-right{
+    position: relative;
+    top: 20px;
+    flex:1;
+}
+.ab-skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.skills-left{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+.skills-right{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    padding: 2rem;
+   
+}
+.skill-empty{
+    width: 18rem;
+    height: 0.6rem;
+    background: lightgray;
+    border-radius: 50px;
+    position: relative;
+}
+.ninety{
+    width: 16rem !important;
+    height: 0.6rem;
+    background: black;
+    border-radius: 50px;
+}
+.eighty{
+    width: 15rem !important;
+    height: 0.6rem;
+    background: black;
+    border-radius: 50px;
+}
+.seventy{
+    width: 14rem !important;
+    height: 0.6rem;
+    background: black;
+    border-radius: 50px;
+}
+.skill-fill{
+    width: 18rem;
+    height: 0.6rem;
+    background: black;
+    border-radius: 50px;
+}
+.skill-empty p{
+    position: absolute;
+    font-weight: bold;
+    top: -2.5rem;
+}
+.skill-empty>:last-child{
+    right: 0;
+}
+
+@media screen and (max-width:935px) {
+   .ab-infos{
+    flex-direction: column;
+   }
+.ab-left{
+    text-align: center;
+}
+.skills-right{
+    padding-top:3.5rem;
+}
+    
+}
+@media screen and (max-width:760px) {
+   .ab-infos{
+    flex-direction: column;
+    padding:0;
+   }
+   .ab-left p{
+    padding: 0;
+}
+.ab-skills{
+    flex-direction: column;
+   
+}
+
+
+    
+}
+@media screen and (max-width:480px) {
+  
+   .ab-left p{
+    padding: 0;
+}
+   .ab-left h1{
+    font-size:21px;
+}
+.skills-left{
+    margin-top: 2.5rem;
+}
+    
+}
